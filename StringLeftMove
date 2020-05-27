@@ -5,9 +5,9 @@
 #include <stdio.h>
 #define N 81
 //#define leftMove 6
-void Leftmove(char*s,int leftMove)
+void leftMove(char*s,int leftMove)
 {
-	int i, j,temp,len, leftMove;
+	int i, j,temp;
 	//len = strlen(s);
 	//printf('%d',len);
 	for (i=0;i<leftMove;i++)//左移leftMove位
